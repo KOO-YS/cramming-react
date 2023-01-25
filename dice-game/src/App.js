@@ -1,11 +1,26 @@
 import Dice from './Dice';
+import MultiDice from './MultiDice';
 
 function App() {
     return (
         <div>
             App Component 
             <br></br>
-            <Dice />
+            <Dice color='red'/>
+            
+            <br></br>
+            <br></br>
+
+            Prop Practice : Default
+            <br></br>
+            <MultiDice />
+
+            <br></br>
+            <br></br>
+            
+            Prop Practice : set Props
+            <br></br>
+            <MultiDice color='red' num='3' />
         </div>
     );
 }
