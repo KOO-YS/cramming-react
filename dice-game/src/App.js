@@ -1,3 +1,4 @@
+import Button from './Button';
 import Dice from './Dice';
 import MultiDice from './MultiDice';
 
@@ -21,6 +22,13 @@ function App() {
             Prop Practice : set Props
             <br></br>
             <MultiDice color='red' num='3' />
+            <br></br>
+            <br></br>
+
+            <div>
+                <Button>button text</Button>
+                <Button>change text</Button>
+            </div>
         </div>
     );
 }
