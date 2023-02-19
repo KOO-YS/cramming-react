@@ -6,14 +6,8 @@ const appTag = ReactDOM.createRoot(document.getElementById('appTag'));
 
 const element = <h2>Dice Game</h2>;
 
-function Hello() {
-  return <h1>react component : Custom tag</h1>
-}
 const component = (
   <>
-    <Hello />
-    <Hello />
-    <Hello />
   </>
 );
 
