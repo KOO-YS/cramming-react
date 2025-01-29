@@ -39,6 +39,13 @@ https://vite.dev/guide/
 - ES modules을 기본으로 지원하여 최신 JavaScript 표준 활용
 - [참고 블로그](https://deku.posstree.com/ko/react/vite/react-typescript/start/)
 
+### TSX (TypeScript with JSX)
+- [TypeScript](https://velog.io/@teo/typescript)
+- [react Docs : typescript](https://react.dev/learn/typescript)
+  - 필요 라이브러리 : `@types/react`, `@types/react-dom`
+  - vite template에 의해 이미 추가되어 있다
+  - jsx를 사용하기 위한 파일은 무조건 `.tsx` 확장자를 사용해야 함
+
 ---
 
 
